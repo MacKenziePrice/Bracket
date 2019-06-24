@@ -1,0 +1,299 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: rgb(30, 30, 30);
+}
+
+#page-wrapper {
+  width: 1280px;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+#tournament-header {
+  position: fixed;
+  z-index: 10;
+  width: 100%;
+  max-width: 1280px;
+  height: 60px;
+  background: rgb(230, 230, 230);
+}
+
+#tournament-header li {
+  font-size: 12px; font-family: 'Roboto Condensed', sans-serif;
+}
+
+#tournament-header .round-info {
+  width: 160px;
+  height: 60px;
+  float: left;
+  text-align: center;
+  list-style-type: none;
+}
+
+#tournament-wrapper {
+  position: relative;
+  top: 60px;
+  width: 100%;
+  height: 1380px;
+  padding: 20px 10px;
+  background: url('../img/bracket-full.svg') center no-repeat rgb(240, 240, 240);
+}
+
+#west-region, #midwest-region {
+  position: relative;
+  top: 100px;
+}
+
+.round {
+  display: block;
+  margin: 15px 0 0 0;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.date {
+  display: block;
+  font-size: 10px;
+}
+
+.column {
+  width: 140px;
+  float: left;
+}
+
+.left {
+  margin-right: 20px;
+}
+
+.right {
+  margin-left: 20px;
+}
+
+.round-of-32 {
+  margin: 40px 0 0 0;
+}
+
+.round-of-32.left {
+  margin-right: 20px;
+}
+
+.round-of-32.right {
+  margin-left: 20px;
+}
+
+.sweet-16 {
+  margin: 120px 0 0 0;
+}
+
+.sweet-16.left {
+  margin-right: 20px;
+}
+
+.sweet-16.right {
+  margin-left: 20px;
+}
+
+.elite-eight {
+  margin: 280px 0 0 0;
+}
+
+.elite-eight.left {
+  margin-right: 10px;
+}
+
+.elite-eight.right {
+  margin-left: 10px;
+}
+
+.matchup {
+  position: relative;
+  width: 140px;
+  height: 60px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.matchup span {
+  line-height: 30px;
+  font-size: 12px; font-family: 'Roboto Condensed', sans-serif;
+  opacity: 0.8;
+}
+
+.matchup .seed {
+  font-size: 10px;
+}
+
+.w span {
+  font-weight: 700;
+  opacity: 1;
+}
+
+.matchup.round-of-64 {
+  margin: 0 0 20px 0;
+}
+
+.matchup.round-of-32 {
+  margin: 0px 0 100px 0;
+}
+
+.matchup.sweet-16 {
+  margin: 0 0 260px 0;
+}
+
+.matchup.elite-eight {
+  margin: 0;
+}
+
+.matchup.round-of-64:last-child {
+  margin: 0;
+}
+
+.matchup.round-of-32:last-child {
+  margin: 0;
+}
+
+.matchup.sweet-16:last-child {
+  margin: 0;
+}
+
+.team-1 {
+  width: 140px;
+  height: 30px;
+  padding: 0 5px;
+  background: rgb(240, 240, 240);
+}
+
+.team-2 {
+  width: 140px;
+  height: 30px;
+  padding: 0 5px;
+  background: rgb(230, 230, 230);
+}
+
+.name {
+  position: absolute;
+  left: 25px;
+}
+
+.score {
+  float: right;
+}
+
+#championship-header {
+  position: absolute;
+  top: 540px;
+  left: 350px;
+  width: 580px;
+  height: 60px;
+}
+
+#championship-header li {
+  font-size: 12px; font-family: 'Roboto Condensed', sans-serif;
+}
+
+#championship-header .round-info {
+  margin: 0 30px;
+  width: 140px;
+  height: 60px;
+  float: left;
+  text-align: center;
+  list-style-type: none;
+}
+
+#championship-round {
+  width: 180px;
+  height: 60px;
+  float: left;
+  text-align: center;
+  list-style-type: none;
+}
+
+#championship-round .round {
+  font-size: 14px;
+}
+
+.final-four-wrapper {
+  position: absolute;
+  top: 600px;
+  left: 350px;
+  width: 580px;
+  height: 180px;
+  padding: 30px;
+  background: rgb(230, 230, 230);
+}
+
+.matchup.final-four {
+  position: relative;
+  top: 30px;
+  float: left;
+}
+
+/* FIXME:  */
+
+.matchup.championship-game {
+  width: 180px;
+  height: 120px;
+  float: left;
+  margin: 0 30px;
+}
+
+.matchup.championship-game span {
+  line-height: 60px;
+  font-size: 16px;
+}
+
+.matchup.championship-game span.name {
+  left: 30px;
+}
+
+.team-1.championship-game {
+  width: 180px;
+  height: 60px;
+  padding: 0 10px;
+}
+
+.team-2.championship-game {
+  width: 180px;
+  height: 60px;
+  padding: 0 10px;
+}
+
+#final-four-logo {
+  position: absolute;
+  top: 420px;
+  left: 580px;
+}
+
+#final-four-logo img {
+  width: 120px;
+}
+
+.region {
+  display: block;
+  position: absolute;
+  font-size: 16px; font-weight: 700; font-family: 'Roboto Condensed', sans-serif;
+}
+
+#east {
+  top: 325px;
+  left: 280px;
+}
+
+#south {
+  top: 325px;
+  right: 280px;
+}
+
+#west {
+  bottom: 320px;
+  left: 280px;
+}
+
+#midwest {
+  bottom: 320px;
+  right: 280px;
+}

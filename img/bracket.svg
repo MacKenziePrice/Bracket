@@ -1,0 +1,50 @@
+<svg id="Strokes" xmlns="http://www.w3.org/2000/svg" width="980" height="561" viewBox="0 0 980 561">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #231f20;
+        stroke-miterlimit: 10;
+        opacity: 0.2;
+      }
+
+      .cls-2 {
+        fill: #f0f0f0;
+      }
+    </style>
+  </defs>
+  <title>bracket</title>
+  <polyline class="cls-1" points="0 0.5 90 0.5 90 10.5"/>
+  <polyline class="cls-1" points="0 80.5 90 80.5 90 70.5"/>
+  <polyline class="cls-1" points="0 160.5 90 160.5 90 170.5"/>
+  <polyline class="cls-1" points="0 240.5 90 240.5 90 230.5"/>
+  <polyline class="cls-1" points="0 320.5 90 320.5 90 330.5"/>
+  <polyline class="cls-1" points="0 400.5 90 400.5 90 390.5"/>
+  <polyline class="cls-1" points="0 480.5 90 480.5 90 490.5"/>
+  <polyline class="cls-1" points="0 560.5 90 560.5 90 550.5"/>
+  <path class="cls-1" d="M320,150" transform="translate(-150 -109.5)"/>
+  <polyline class="cls-1" points="160 40.5 250 40.5 250 90.5"/>
+  <polyline class="cls-1" points="160 200.5 250 200.5 250 150.5"/>
+  <polyline class="cls-1" points="160 360.5 250 360.5 250 410.5"/>
+  <polyline class="cls-1" points="160 520.5 250 520.5 250 470.5"/>
+  <polyline class="cls-1" points="320 120.5 370 120.5 370 250.5"/>
+  <polyline class="cls-1" points="320 440.5 370 440.5 370 310.5"/>
+  <line class="cls-1" x1="410" y1="310.5" x2="410" y2="550.5"/>
+  <path class="cls-2" d="M1090,150" transform="translate(-150 -109.5)"/>
+  <polyline class="cls-1" points="980 0.5 890 0.5 890 10.5"/>
+  <polyline class="cls-1" points="980 80.5 890 80.5 890 70.5"/>
+  <polyline class="cls-1" points="980 160.5 890 160.5 890 170.5"/>
+  <polyline class="cls-1" points="980 240.5 890 240.5 890 230.5"/>
+  <polyline class="cls-1" points="980 320.5 890 320.5 890 330.5"/>
+  <polyline class="cls-1" points="980 400.5 890 400.5 890 390.5"/>
+  <polyline class="cls-1" points="980 480.5 890 480.5 890 490.5"/>
+  <polyline class="cls-1" points="980 560.5 890 560.5 890 550.5"/>
+  <path class="cls-1" d="M960,150" transform="translate(-150 -109.5)"/>
+  <polyline class="cls-1" points="820 40.5 730 40.5 730 90.5"/>
+  <polyline class="cls-1" points="820 200.5 730 200.5 730 150.5"/>
+  <polyline class="cls-1" points="820 360.5 730 360.5 730 410.5"/>
+  <polyline class="cls-1" points="820 520.5 730 520.5 730 470.5"/>
+  <polyline class="cls-1" points="660 120.5 610 120.5 610 250.5"/>
+  <polyline class="cls-1" points="660 440.5 610 440.5 610 310.5"/>
+  <line class="cls-1" x1="570" y1="310.5" x2="570" y2="550.5"/>
+</svg>
